@@ -1,0 +1,9 @@
+<div>
+    <p>API Response: {{ getResponse }}</p>
+    <hr />
+
+    <h2>Send data:</h2>
+    Write your name: <input [(ngModel)]="name" />
+    <button class="btn btn-danger btn-block btn-lg" (click)="sendData()">Send &raquo;</button>
+    <p>Response: {{ postResponse }}</p>
+</div>
